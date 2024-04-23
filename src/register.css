@@ -1,0 +1,25 @@
+body {
+  background-color: #00d1b2; 
+  min-height: 110vh; 
+}
+
+.register-container{
+  max-width: 300px; 
+  padding: 20px; 
+  border-radius: 5%;
+  background-color: white;
+}
+
+.register-container input.input {
+  background-color: white;
+  border-color: lightgrey;
+  margin: 7px;
+}
+
+.register-container input::placeholder {
+  color: lightgray;
+}
+
+.register-container input {
+  color: black;
+}
